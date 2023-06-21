@@ -95,34 +95,34 @@ public class ClassExample {
 		grade.setGrade(80, 55, 100);
 		
 		
-		double avg = grade.getAvg();
+		//double avg = grade.getAvg();
 		char result =grade.getGrade();
-		System.out.println(avg);
+		//System.out.println(avg);
 		System.out.println(result);
 		
 		grade.setGrade(85, 80, 80);
-		avg=grade.getAvg();
+		//avg=grade.getAvg();
 		result = grade.getGrade();
-		System.out.println(avg);
+		//System.out.println(avg);
 		System.out.println(result);
 		
 		grade.setGrade(70, 85, 40);
-		avg = grade.getAvg();
+		//avg = grade.getAvg();
 		result = grade.getGrade();
-		System.out.println(avg);
+		//System.out.println(avg);
 		System.out.println(result);
 		
 		grade.setGrade(70, 85, 100);
-		avg = grade.getAvg();
+		//avg = grade.getAvg();
 		result = grade.getGrade();
-		System.out.println(avg);
+		//System.out.println(avg);
 		System.out.println(result);
 		
 		
 		grade.setGrade(40, 85, 40);
-		avg = grade.getAvg();
+		//avg = grade.getAvg();
 		result = grade.getGrade();
-		System.out.println(avg);
+		//System.out.println(avg);
 		System.out.println(result);
 		
 		
