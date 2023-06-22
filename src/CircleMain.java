@@ -27,8 +27,6 @@ class Rectangle4{
 		return "Rectangle4 [width=" + width + ", height=" + height + "]";
 	}
 	
-	
-	
 }
 
 public class CircleMain {
