@@ -62,8 +62,8 @@ public class PrintableMain {
 //		
 //		LGPrinter lg = new LGPrinter();
 //		lg.print("안녕하세요.");
-//		Printable printer = new SamsungPrinter();
-//		printer.print("프린트 합니다.");
+	//		Printable printer = new SamsungPrinter();
+	//		printer.print("프린트 합니다.");
 		
  		String myDoc = "This is a report about...";
  
