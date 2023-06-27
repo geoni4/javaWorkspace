@@ -34,6 +34,7 @@ public class MobileSmartPhoneRef {
 		
 		ph1.answer();
 		ph1.playApp();
+		System.out.println();
 		
 		ph2.answer();
 		//ph2.playApp();
