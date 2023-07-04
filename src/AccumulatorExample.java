@@ -62,7 +62,7 @@ public class AccumulatorExample {
 
         Accumulator2.showResult(); // 최종 누적 결과를 출력"
         Scanner scanner = new Scanner(System.in);
-        StudentGrade sg;
+        StudentAcc sg;
         String name;
         int kor, eng, math;
         String menu;
@@ -78,7 +78,7 @@ public class AccumulatorExample {
         	System.out.print("수학 : ");
         	math = scanner.nextInt();
         	
-        	sg= new StudentGrade(name, kor, eng, math);
+        	sg= new StudentAcc(name, kor, eng, math);
         	
         	sg.showInfo();
         	System.out.print("계속하시겠습니까? (yes,y/no,n)");
