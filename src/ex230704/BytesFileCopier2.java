@@ -7,7 +7,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.Scanner;
 
-public class BytesFileCopier {
+public class BytesFileCopier2 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("대상 파일: ");
