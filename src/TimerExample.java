@@ -4,6 +4,13 @@ public class TimerExample {
 		System.out.println(gradChar(90.8)); // 수
 		System.out.println(gradChar(80.0)); // 우
 		System.out.println(gradChar(50.0)); // 가
+		//result = sub(100, 20); // 빼기 100 - 20 => 80
+		//System.out.println(result); // 80
+		//double dresult = mult(10.0, 2.0); // 곱하기 10.0 * 2.0 => 20.0
+		//System.out.println(dresult); // 20.0
+		//dresult = div(5, 2); // 나누기 5.0 / 2.0 => 2.5
+		//System.out.println(dresult); // 2.5
+		
 	}
 	
 	
