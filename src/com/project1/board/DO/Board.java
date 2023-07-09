@@ -1,8 +1,8 @@
-package com.project1;
+package com.project1.board.DO;
 
 public class Board {
-	int bno;
-	String title, content, writer, createDate, modifyDate;
+	private int bno;
+	private String title, content, writer, createDate, modifyDate;
 
 	public int getBno() {
 		return bno;
