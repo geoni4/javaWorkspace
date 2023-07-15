@@ -66,6 +66,8 @@ public class Example {
 		System.out.println("내용 : " + boardDto.getText());
 		System.out.println("작성자 : " + boardDto.getWriter());
 		System.out.println("작성날짜 : " + boardDto.getNowdate());
+		int arr[] = new int[5];
+		int[] arr2 = new int[5];
 
 	}
 
