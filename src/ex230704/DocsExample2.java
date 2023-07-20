@@ -3,7 +3,7 @@ package ex230704;
 import java.util.Iterator;
 import java.util.Set;
 import java.util.TreeMap;
-import java.util.TreeSet;
+
 
 public class DocsExample2 {
 	public static void main(String[] args) {
@@ -22,7 +22,13 @@ public class DocsExample2 {
 		for(Iterator<Integer> iter = set.iterator(); iter.hasNext();) {
 			Integer num = iter.next();
 			System.out.println(num + " " + map.get(num));
-			
+		}
+		
+		
+		Iterator<Integer> iter = set.iterator();
+		while(iter.hasNext()) {
+			Integer num = iter.next();
+			System.out.println(num + " " + map.get(num));
 		}
 	}
 }
